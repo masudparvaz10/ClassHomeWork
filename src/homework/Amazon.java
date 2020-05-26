@@ -9,6 +9,11 @@ public class Amazon {
     public static WebDriver myDriver;
 
     public static void main(String[] args) {
+        Amazon.pillPack();
+        Amazon.address();
+        Amazon.logo();
+        Amazon.amazonBasics();
+        Amazon.foundItOnAmazon();
         Amazon.searchBox();
         Amazon.searchBoxNegative();
         Amazon.bestSellers();
@@ -42,6 +47,20 @@ public class Amazon {
         Amazon.orders();
         Amazon.tryPrime();
         Amazon.cart();
+        Amazon.coupons();
+        Amazon.customerService();
+        Amazon.findAGift();
+        Amazon.freeShipping();
+        Amazon.giftCards();
+        Amazon.menu();
+        Amazon.newReleases();
+        Amazon.registry();
+        Amazon.sell();
+        Amazon.sellOnAmazon();
+        Amazon.shopperToolkit();
+        Amazon.todayDeals();
+        Amazon.wholeFoods();
+
 
     }
 
@@ -306,7 +325,7 @@ public class Amazon {
         myDriver = new ChromeDriver();
         //Navigate to URL
         myDriver.get("https://www.amazon.com/");
-        //Select woot on click
+        //Select Woot on click
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[11]/a")).click();
     }
 
@@ -388,6 +407,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"8921dbd2-0f9e-468b-a1db-d20f9ec68b96\"]/div/div[2]/div[2]/div/div/a[1]/span/span")).click();
         myDriver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();
     }
+
     // Test case :29
     public static void flag() {
         //set property with browser driver name and path of the driver
@@ -399,6 +419,7 @@ public class Amazon {
         //Select flag on click
         myDriver.findElement(By.xpath("//*[@id=\"icp-nav-flyout\"]/span/span[1]/span")).click();
     }
+
     // Test case :30
     public static void account() {
         //set property with browser driver name and path of the driver
@@ -410,6 +431,7 @@ public class Amazon {
         //Select account on click
         myDriver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]/span[1]")).click();
     }
+
     // Test case :31
     public static void orders() {
         //set property with browser driver name and path of the driver
@@ -421,6 +443,7 @@ public class Amazon {
         //Select Orders on click
         myDriver.findElement(By.xpath("//*[@id=\"nav-orders\"]/span[1]")).click();
     }
+
     // Test case :32
     public static void tryPrime() {
         //set property with browser driver name and path of the driver
@@ -432,6 +455,7 @@ public class Amazon {
         //Select TryPrime on click
         myDriver.findElement(By.xpath("//*[@id=\"nav-link-prime\"]/span")).click();
     }
+
     // Test case :33
     public static void cart() {
         //set property with browser driver name and path of the driver
@@ -443,7 +467,215 @@ public class Amazon {
         //Select Cart on click
         myDriver.findElement(By.xpath("//*[@id=\"nav-cart\"]/span[3]")).click();
     }
-    // Test case :34
 
+    // Test case :34
+    public static void customerService() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select  customerService on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[2]")).click();
+    }
+
+    //Test case :35
+    public static void newReleases() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[3]")).click();
+    }
+
+    //Test case :36
+    public static void findAGift() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[4]")).click();
+    }
+
+    //Test case :37
+    public static void todayDeals() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[5]")).click();
+    }
+
+    //Test case :38
+    public static void wholeFoods() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select wholeFoods on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[6]")).click();
+    }
+
+    //Test case :39
+    public static void giftCards() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select giftCards on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[7]")).click();
+    }
+
+    //Test case :40
+    public static void registry() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[8]")).click();
+    }
+
+    //Test case :41
+    public static void amazonBasics() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select amazonBasics on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[9]")).click();
+    }
+
+    //Test case :42
+    public static void sell() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[10]")).click();
+    }
+
+    //Test case :43
+    public static void coupons() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select coupons on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[11]")).click();
+    }
+
+    //Test case :44
+    public static void foundItOnAmazon() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select foundItOnAmazon on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[12]")).click();
+    }
+
+    //Test case :45
+    public static void freeShipping() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[13]")).click();
+    }
+
+    //Test case :46
+    public static void shopperToolkit() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Search on click
+        myDriver.findElement(By.xpath(" //*[@id=\"nav-xshop\"]/a[14]")).click();
+    }
+
+    //Test case :47
+    public static void menu() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select menu on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-hamburger-menu\"]/i")).click();
+    }
+
+    //Test case :48
+    public static void logo() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select menu on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-logo\"]/a[1]/span[1]")).click();
+    }
+
+    //Test case :49
+    public static void address() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select address on click
+        myDriver.findElement(By.xpath("//*[@id=\"glow-ingress-line2\"]")).click();
+        //enter zip code
+        myDriver.findElement(By.xpath("//*[@id=\"GLUXZipUpdateInput\"]")).sendKeys("11210");
+        //Select apply on click
+        myDriver.findElement(By.xpath("//*[@id=\"GLUXZipUpdate\"]/span/input")).click();
+        //Select Done on click
+        myDriver.findElement(By.xpath("//*[@id=\"a-popover-3\"]/div/div[2]/span/span/span/button")).click();
+    }
+
+    //Test case :50
+    public static void pillPack() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select PillPack on click
+        myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[11]/td[9]/a")).click();
+    }
 
 }
