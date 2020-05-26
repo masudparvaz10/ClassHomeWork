@@ -37,10 +37,15 @@ public class Amazon {
         Amazon.addToCart();
         Amazon.amazonPrime();
         Amazon.selectCologne();
+        Amazon.account();
+        Amazon.flag();
+        Amazon.orders();
+        Amazon.tryPrime();
+        Amazon.cart();
 
     }
 
-    //1
+    // Test case :1
     public static void careers() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -53,7 +58,7 @@ public class Amazon {
 
     }
 
-    //2
+    // Test case :2
     public static void blog() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -65,7 +70,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[2]/a")).click();
     }
 
-    //3
+    // Test case :3
     public static void aboutAmazon() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -77,7 +82,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[3]/a")).click();
     }
 
-    //4
+    // Test case :4
     public static void pressCenter() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -89,7 +94,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[4]/a")).click();
     }
 
-    //5
+    // Test case :5
     public static void investorRelations() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -101,7 +106,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[5]/a")).click();
     }
 
-    //6
+    // Test case :6
     public static void amazonDevices() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -113,7 +118,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[6]/a")).click();
     }
 
-    //7
+    // Test case :7
     public static void amazonTours() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -125,7 +130,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[7]/a")).click();
     }
 
-    //8
+    // Test case :8
     public static void amazonMusic() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -137,7 +142,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[1]/a")).click();
     }
 
-    //9
+    // Test case :9
     public static void sellOnAmazon() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -149,7 +154,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[3]/td[1]/a")).click();
     }
 
-    //10
+    // Test case :10
     public static void amazonWebServices() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -161,7 +166,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[5]/td[1]/a")).click();
     }
 
-    //11
+    // Test case :11
     public static void eastDane() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -173,7 +178,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[1]/a")).click();
     }
 
-    //12
+    // Test case :12
     public static void amazonPhotos() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -185,7 +190,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[1]/a")).click();
     }
 
-    //13
+    // Test case :13
     public static void ring() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -197,7 +202,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[11]/td[1]/a")).click();
     }
 
-    //14
+    // Test case :14
     public static void fabric() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -209,7 +214,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[3]/a")).click();
     }
 
-    //15
+    // Test case :15
     public static void amazonDrive() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -221,7 +226,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[5]/a")).click();
     }
 
-    //16
+    // Test case :16
     public static void amazonFresh() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -233,7 +238,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[3]/td[5]/a")).click();
     }
 
-    //17
+    // Test case :17
     public static void shopbop() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -245,7 +250,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[5]/a")).click();
     }
 
-    //18
+    // Test case :18
     public static void iMDB() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -257,7 +262,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[7]/a")).click();
     }
 
-    //19
+    // Test case :19
     public static void aCX() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -269,7 +274,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[11]/a")).click();
     }
 
-    //20
+    // Test case :20
     public static void alexa() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -281,7 +286,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[13]/a")).click();
     }
 
-    //21
+    // Test case :21
     public static void zappos() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -293,7 +298,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[13]/a")).click();
     }
 
-    //22
+    // Test case :22
     public static void woot() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -305,7 +310,7 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[11]/a")).click();
     }
 
-    //23
+    // Test case :23
     public static void searchBox() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -317,11 +322,9 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("watch");
         //Search product on SearchField
         myDriver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-
-
     }
 
-    //24
+    // Test case :24
     public static void searchBoxNegative() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -333,11 +336,9 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("vodka and ram");
         //Search product on SearchField
         myDriver.findElement(By.xpath("//*[@id=\"nav-search\"]/form/div[2]/div/input")).click();
-
-
     }
 
-    //25
+    // Test case :25
     public static void bestSellers() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -347,11 +348,9 @@ public class Amazon {
         myDriver.get("https://www.amazon.com/");
         //Select BestSellers on click
         myDriver.findElement(By.xpath("//*[@id=\"nav-xshop\"]/a[1]")).click();
-
-
     }
 
-    // 26th test case :
+    //  Test case :26
     public static void selectCologne() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -362,11 +361,9 @@ public class Amazon {
         myDriver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("colognes for men");
         myDriver.findElement(By.cssSelector("#nav-search > form > div.nav-right > div > input")).click();
         myDriver.findElement(By.cssSelector("#b6988f18-132d-4b2f-988f-18132ddb2f5e > div > div.sb_2vdjSJEF > div.sb_Azvq332I.sb_ji55L-0S.sb_1-64HM9_ > div > div > a:nth-child(1) > span > span")).click();
-
-
     }
 
-    // 27th test case :
+    //  Test case :27
     public static void amazonPrime() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -375,11 +372,9 @@ public class Amazon {
         //Navigate to URL
         myDriver.get("https://www.amazon.com/");
         myDriver.findElement(By.xpath("//*[@id=\"nav-logo\"]/a[2]")).click();
-
-
     }
 
-    // 28th test case :
+    // Test case :28
     public static void addToCart() {
         // Set property with browser driver name and path of the driver
         // For Chrome Browser
@@ -392,9 +387,63 @@ public class Amazon {
         myDriver.findElement(By.cssSelector("#nav-search > form > div.nav-right > div > input")).click();
         myDriver.findElement(By.xpath("//*[@id=\"8921dbd2-0f9e-468b-a1db-d20f9ec68b96\"]/div/div[2]/div[2]/div/div/a[1]/span/span")).click();
         myDriver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();
-
-
     }
+    // Test case :29
+    public static void flag() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select flag on click
+        myDriver.findElement(By.xpath("//*[@id=\"icp-nav-flyout\"]/span/span[1]/span")).click();
+    }
+    // Test case :30
+    public static void account() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select account on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]/span[1]")).click();
+    }
+    // Test case :31
+    public static void orders() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select Orders on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-orders\"]/span[1]")).click();
+    }
+    // Test case :32
+    public static void tryPrime() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select TryPrime on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-link-prime\"]/span")).click();
+    }
+    // Test case :33
+    public static void cart() {
+        //set property with browser driver name and path of the driver
+        //for chrome browser
+        System.setProperty("webdriver.chrome.driver", "Lib/BrowserDriver/chromedriver");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        //Select Cart on click
+        myDriver.findElement(By.xpath("//*[@id=\"nav-cart\"]/span[3]")).click();
+    }
+    // Test case :34
 
 
 }
