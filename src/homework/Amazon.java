@@ -34,6 +34,9 @@ public class Amazon {
         Amazon.amazonPhotos();
         Amazon.amazonTours();
         Amazon.amazonWebServices();
+        Amazon.addToCart();
+        Amazon.amazonPrime();
+        Amazon.selectCologne();
 
     }
 
@@ -347,5 +350,51 @@ public class Amazon {
 
 
     }
+
+    // 26th test case :
+    public static void selectCologne() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        myDriver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("colognes for men");
+        myDriver.findElement(By.cssSelector("#nav-search > form > div.nav-right > div > input")).click();
+        myDriver.findElement(By.cssSelector("#b6988f18-132d-4b2f-988f-18132ddb2f5e > div > div.sb_2vdjSJEF > div.sb_Azvq332I.sb_ji55L-0S.sb_1-64HM9_ > div > div > a:nth-child(1) > span > span")).click();
+
+
+    }
+
+    // 27th test case :
+    public static void amazonPrime() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        myDriver.findElement(By.xpath("//*[@id=\"nav-logo\"]/a[2]")).click();
+
+
+    }
+
+    // 28th test case :
+    public static void addToCart() {
+        // Set property with browser driver name and path of the driver
+        // For Chrome Browser
+        System.setProperty("webdriver.chrome.driver", "Lib\\BrowserDriver\\chromedriver.exe");
+        myDriver = new ChromeDriver();
+        //Navigate to URL
+        myDriver.get("https://www.amazon.com/");
+        myDriver.manage().window().maximize();
+        myDriver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("colognes for men");
+        myDriver.findElement(By.cssSelector("#nav-search > form > div.nav-right > div > input")).click();
+        myDriver.findElement(By.xpath("//*[@id=\"8921dbd2-0f9e-468b-a1db-d20f9ec68b96\"]/div/div[2]/div[2]/div/div/a[1]/span/span")).click();
+        myDriver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();
+
+
+    }
+
 
 }
